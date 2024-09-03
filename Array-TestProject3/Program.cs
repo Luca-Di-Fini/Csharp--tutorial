@@ -63,6 +63,10 @@
         }
         Console.WriteLine($"Number of orders starting with B: {count}");
 
+
+
+        // using char array
+
         /* int count = 0;
 
         foreach (string order in orders)
