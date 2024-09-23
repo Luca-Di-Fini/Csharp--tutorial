@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CodeComment-TestProject4/1.0.0": {
+        "runtime": {
+          "CodeComment-TestProject4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeComment-TestProject4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
