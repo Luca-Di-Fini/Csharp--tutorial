@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array-TestProject3", "Array
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeComment-TestProject4", "CodeComment-TestProject4\CodeComment-TestProject4.csproj", "{E1ED34E8-5A01-4054-9DB7-0887FC8E73C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array-ForEach-If-TestProject5", "Array-ForEach-If-TestProject5\Array-ForEach-If-TestProject5.csproj", "{FADDAABD-FAD4-4124-87B6-F01788FDB3BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{E1ED34E8-5A01-4054-9DB7-0887FC8E73C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1ED34E8-5A01-4054-9DB7-0887FC8E73C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1ED34E8-5A01-4054-9DB7-0887FC8E73C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADDAABD-FAD4-4124-87B6-F01788FDB3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADDAABD-FAD4-4124-87B6-F01788FDB3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADDAABD-FAD4-4124-87B6-F01788FDB3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADDAABD-FAD4-4124-87B6-F01788FDB3BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

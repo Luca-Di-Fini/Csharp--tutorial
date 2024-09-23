@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeComment-TestProject4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+674dc097c717ab02e7079cc2532aa5756e6d486e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e57133ef6e1c2655b0db26cf1c046e2298b2ee49")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeComment-TestProject4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeComment-TestProject4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
