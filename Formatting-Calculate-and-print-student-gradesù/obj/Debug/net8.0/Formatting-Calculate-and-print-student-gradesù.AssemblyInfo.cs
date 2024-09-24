@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Formatting-Calculate-and-print-student-gradesù")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e57133ef6e1c2655b0db26cf1c046e2298b2ee49")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db2fa8eab56f87b86f462488a17d3376aca0c863")]
 [assembly: System.Reflection.AssemblyProductAttribute("Formatting-Calculate-and-print-student-gradesù")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Formatting-Calculate-and-print-student-gradesù")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
