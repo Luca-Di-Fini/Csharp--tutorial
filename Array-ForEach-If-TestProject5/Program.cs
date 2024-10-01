@@ -19,7 +19,7 @@
         string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan", "Becky", "Chris", "Eric", "Gregor" };
 
         // Write the Report Header to the console
-        Console.WriteLine("Student\t\tGrade\n");
+        Console.WriteLine("Student\t\tExam Score\tOverall Grade\t\tExtra\tCredit\n");
 
 
         int[] studentScores;
@@ -56,13 +56,17 @@
             else
                 continue;
 
-
-
-            // Initialize/reset the sum of scored assignments
-            int sumAssignmentScores = 0;
-
-            // initialize/reset a counter for the number of assignment 
+            // Initialize/reset a counter for the number of assignment 
             int gradedAssignments = 0;
+
+            // Initialize/reset a counter for the number of assignment (credit)
+            int gradeAssignmentsCredit = 0;
+
+            //Initialize/reset the sum of exam scores
+            int sumExamScores = 0;
+
+            //Initialize/reset the sum of extra credit
+            int sumExtraCredits = 0;
 
 
             // loop through the scores array and complete calculations for currentStudent
@@ -75,17 +79,24 @@
                 if (gradedAssignments <= examAssignments)
                 {
                     // Add the exam score to the sum
-                    sumAssignmentScores += score;
+
+                    sumExamScores += score;
                 }
+
                 else
                 {
                     // add the extra credit points to the sum - bonus points equal to 10% of an exam score
-                    sumAssignmentScores += score / 10;
+
+                    sumExtraCredits += score;
+                    gradeAssignmentsCredit++;
                 }
 
             }
 
-            decimal currentStudentGrade = (decimal)sumAssignmentScores / examAssignments;
+            decimal currentExtraCreditScore = (decimal)sumExtraCredits / gradeAssignmentsCredit;
+            decimal currentExamScore = (decimal)sumExamScores / examAssignments;
+            decimal currentStudentGrade = ((decimal)sumExamScores + ((decimal)sumExtraCredits / 10)) / examAssignments;
+            decimal currentStudentExtraCreditScore = currentStudentGrade - currentExamScore;
 
 
             if (currentStudentGrade >= 97)
@@ -128,7 +139,7 @@
                 currentStudentLetterGrade = "F";
 
 
-            Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
+            Console.WriteLine($"{currentStudent}\t\t{currentExamScore}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}\t\t{currentExtraCreditScore}\t({currentStudentExtraCreditScore + " pts"}) ");
 
         }
         // Write the Report Footer to the console
